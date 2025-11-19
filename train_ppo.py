@@ -1,13 +1,13 @@
 import pathlib
 
-from PPO_maxEnt_LEEP import algo, utils
-from PPO_maxEnt_LEEP.arguments import get_args
-from PPO_maxEnt_LEEP.envs import make_ProcgenEnvs
-from PPO_maxEnt_LEEP.model import Policy,  ImpalaModel
-from PPO_maxEnt_LEEP.storage import RolloutStorage
+from ppo_maxent import algo, utils
+from ppo_maxent.arguments import get_args
+from ppo_maxent.envs import make_ProcgenEnvs
+from ppo_maxent.model import Policy,  ImpalaModel
+from ppo_maxent.storage import RolloutStorage
 from evaluation import evaluate_procgen
-from PPO_maxEnt_LEEP.procgen_wrappers import *
-from PPO_maxEnt_LEEP.logger import Logger
+from ppo_maxent.procgen_wrappers import *
+from ppo_maxent.logger import Logger
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
